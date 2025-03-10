@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="dragon_ball/gokublue.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sofia&family=Trocchi&family=Vesper+Libre:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sofia&family=Trocchi&family=Vesper+Libre:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>tienda-dbs</title>
+</head>
+
+<body>
+    <main class="contenedor">
+        <header>
+            <div class="logo-titulo">
+                <a href="index.html">
+                    <i class="fa-solid fa-circle-dot"></i>
+                    <h1>Dragon ball tienda </h1>
+                </a>
+            </div>
+            <nav id="nav">
+                <a href="index.html">Inicio</a>
+                <a href="tienda.html" class="selected">Tienda</a>
+                <a href="contacto.html">Contactos</a>
+            </nav>
+            <div class="carrito">
+                <!-- <span class="total-compra">$55.00</span> -->
+                <a href="carrito.html">
+                    <span class="icono-carrito">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <div class="total-item-carrito">
+                            2
+                        </div>
+                    </span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Seccion inicio -->
+        <section class="contenedor-seccion">
+            <div class="fondo-seccion"></div>
+            <div class="header-seccion">
+                <div class="col">
+                    <strong><span class="link-blanco">Inicio</span> / Tienda</strong>
+                </div>
+                <div class="centro">
+                    <h2>Shop</h2>
+                </div>
+                <div class="col busqueda">
+                    <strong>Resultados(1-6)</strong>
+                    <select name="" id="">
+                        <option value="">Todos los productos</option>
+                        <option value="">Por precio</option>
+                        <option value="">Por modelo</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- productos -->
+            <section id="productos" class="productos">
+                <div class="fila">
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto1.html">
+                            <div class="contenido">
+                                <div class="fondo orange">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/radicks.webp" alt="radicks">
+                                <h2>Radicks Saga Dragon ball Z</h2>
+                                <h2>S/85.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto2.html">
+                            <div class="contenido">
+                                <div class="fondo blue">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/frezzer.webp" alt="radicks">
+                                <h2>Frezzer Saga Dragon ball Z</h2>
+                                <h2>S/105.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto1.html">
+                            <div class="contenido">
+                                <div class="fondo green">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/gohan-bici-uni.webp" alt="radicks">
+                                <h2>Gohan Modo Universitario</h2>
+                                <h2>S/160.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto1.html">
+                            <div class="contenido">
+                                <div class="fondo blue">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/gohan-ultra.webp" alt="gohan-ultra">
+                                <h2>Gohan modo Ultra</h2>
+                                <h2>S/220.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto2.html">
+                            <div class="contenido">
+                                <div class="fondo orange">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/gohan-vaculo.webp" alt="gohan-vaculo">
+                                <h2>Gohan de Niño</h2>
+                                <h2>S/185.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto1.html">
+                            <div class="contenido">
+                                <div class="fondo green">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/gohanbici.webp" alt="gohan bici">
+                                <h2>Gohan modo gran sayaman</h2>
+                                <h2>S/190.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto1.html">
+                            <div class="contenido">
+                                <div class="fondo orange">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/goku-llavero.webp" alt="goku-llavero">
+                                <h2>Llavero de Goku</h2>
+                                <h2>S/65.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto2.html">
+                            <div class="contenido">
+                                <div class="fondo blue">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/goku-manga-12.webp" alt="manga">
+                                <h2>Manga de DBS Cap12</h2>
+                                <h2>S/155.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto1.html">
+                            <div class="contenido">
+                                <div class="fondo green">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/goku-manga.webp" alt="manga">
+                                <h2>Manga de DBS</h2>
+                                <h2>S/115.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto1.html">
+                            <div class="contenido">
+                                <div class="fondo blue">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/gokubb.webp" alt="goku-bb">
+                                <h2>Goku de Bebe</h2>
+                                <h2>S/220.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto2.html">
+                            <div class="contenido">
+                                <div class="fondo orange">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/goku-vaculo.webp" alt="goku-vaculo">
+                                <h2>Goku niño</h2>
+                                <h2>S/165.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </span>
+                            <span class="cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                        </header>
+                        <a href="producto1.html">
+                            <div class="contenido">
+                                <div class="fondo green">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="dragon_ball/usaru.webp" alt="usaru">
+                                <h2>Usaru Goku Ssj4</h2>
+                                <h2>S/300.00</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>Sobre Nosotros</h4>
+                    <p>Mi primera pagina web - Idat</p>
+                    <div class="redes">
+                        <a href="" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" class="twit"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tienda.html">tienda</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Email: Nigelnomberto@gmail.com</p>
+                    <p>Teléfono: +51 910795388</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>

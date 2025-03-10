@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sofia&family=Trocchi&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';  
+}
+
+body{
+    /* background: linear-gradient(#e69407,#ffebc1); */
+    background: url(dragon_ball/15137.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+
+.contenedor{
+    background:url(dragon_ball/dragon-ball-daima-wallpaper-2.webp)no-repeat center center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 40px;
+    border: 5px solid #fff;
+}
+
+.contenedor header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor header .logo-titulo a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor header .logo-titulo a i{
+    background-color: #fff3d2;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contenedor header .logo-titulo h1{
+    font-size: 50px;
+    font-family:'Bebas Neue',sans-serif ;
+    color: orange;
+}
+
+.contenedor header nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.contenedor header nav a:hover{
+    color: #ff6b01;
+}
+
+.contenedor header .carrito .icono-carrito{
+    display: inline-block;
+    background-color: #fff3d2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+
+.contenedor header .carrito .icono-carrito:hover{
+    background-color: #fdc20c;
+}
+
+.contenedor header .carrito .total-item-carrito{
+    position: absolute;
+    background-color: #fff3d2;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    line-height: 15px;
+}
+
+.contenedor-seccion{
+    position: relative;
+}
+
+.contenedor-seccion .fondo-seccion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(dragon_ball/dragon-ball-daima-wallpaper-13\ \(1\).webp) no-repeat center center ;
+    overflow: auto;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 50px;
+}
+
+/* Seccion inicio */
+
+.contenedor-seccion .inicio{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;    
+}
+
+.contenedor-seccion .inicio .col{
+    width: 50%;
+}
+
+.contenedor-seccion .inicio .col .titulo-inicio{
+    line-height: 40px;
+    font-size: 30px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.contenedor-seccion .inicio .col .buscador{
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.contenedor-seccion .inicio .col .buscador input{
+    width: 100%;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    outline: none;
+}
+
+.contenedor-seccion .inicio .col .buscador span{
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.contenedor-seccion .inicio .col .buscador span i{
+    padding-right: 10px;
+}
+
+.contenedor-seccion .inicio .col .buscador span:hover{
+    background-color: #ccc;
+}
+
+.contenedor-seccion .inicio .col .contenedor-img{
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    background: rgba(255,255,255,.7);
+    border-radius: 50%;
+}
+
+.contenedor-seccion .inicio .col .contenedor-img img{
+    width: 100%;
+    display: inline-block;
+}
+
+/* Seccion Encabezado */
+
+.header-seccion{
+    position: relative;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+.header-seccion .col{
+    width: 30%;
+}
+
+.header-seccion .link-blanco{
+    color: #fff;
+}
+
+.header-seccion .busqueda{
+    text-align: right;
+    font: 16px;
+}
+
+.header-seccion .busqueda select{
+    font-size: 10px;
+    background-color: #ffebc1;
+    border: none;
+    padding: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/*productos*/
+
+.productos{
+    position: relative;
+}
+
+.productos .fila{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.productos .fila .col{
+    width: 240px;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+}
+.productos .fila .col img{
+    width: 80%;
+}
+
+.productos .fila .col .like,
+.productos .fila .col .cart{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 12px;
+    transition: .3s;
+}
+
+.productos .fila .col .like:hover,
+.productos .fila .col .car:hover{
+    background-color: #fdc20c;
+}
+
+/*Estilos para crear fondo con textura*/
+
+.fondo-dots{
+    background-image:
+         radial-gradient(rgb(243, 211, 130)2% ,transparent 10%),
+         radial-gradient(rgb(232,227,227)2%, transparent 10%);
+    background-position: 0px 0px,12px 12px  ;
+    background-size: 24px 24px;
+    background-color: rgb(241, 165, 65);     
+}
+
+.productos .fila .col img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: .3s
+}
+
+.productos .fila .col .contenido{
+    cursor: pointer;
+}
+
+/* .contenido{
+    border: 5px solid black;
+} */
+
+.productos .fila .col .contenido:hover img{
+    transform: scale(1.10);
+}
+
+.productos .fila .col .contenido img{
+    transition: all 0.5s;
+}
+
+.productos .fila .col a{
+    text-decoration: none;
+}
+
+.productos .fila .col h2{
+    font-size: 14px;
+    text-align: center;
+    color: #4f3cc9;
+}
+
+.productos .fila .col .orange{
+    background-color: #ff6b01;
+}
+
+.productos .fila .col .blue{
+    background-color: #45409c;
+}
+
+.productos .fila .col .green{
+    background-color: #01af67;
+}
+
+.productos .fila .col .fondo{
+    width: 90%;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    left: 13px;
+    transition: .3s;
+}
+
+.productos .fila .col .contenido:hover .fondo{
+    margin-top: 40px;
+}
+
+.productos .fila .circulo{
+    width: 120px;
+    height: 120px;
+    background-color: #fdc20c;
+    border: 3px solid #ffebc1;
+    border-radius: 50%;
+}
+
+/*Seccion contacto*/
+
+.contacto{
+    position: relative;
+    padding: 0 50px;
+}
+
+.contacto .fila{
+    padding: 50px 40px;
+    background:url(dragon_ball/dragon-ball-daima-wallpaper-4.webp) no-repeat center center;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset 0 0 20px 10px rgba(255, 255, 255, .5),0px 0px 10px 0 #000;
+}
+
+.contacto .fila .col{
+    width: 50%;
+}
+
+.contacto .fila .col input,
+.contacto .fila .col textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #4b5270;
+    border-radius: 20px;
+}
+
+.contacto .fila .derecha{
+    position: relative;
+}
+
+.contacto .fila .derecha h2{
+    color: #444;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contacto .fila .derecha img{
+    opacity: .7;
+    right:60px;
+    width: 300px;
+    position: absolute;
+}
+
+.contacto .fila .col .btn-contacto{
+    width: auto;
+    background-color: #000;
+    color: #fdc20c;
+    border: none;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+/*Footer*/
+
+.footer {
+
+    background:linear-gradient(rgb(193, 143, 49),#ebdb4ce1);
+    color: white;
+    border-radius: 20px;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    font-family: "open sans",Arial, Helvetica, sans-serif;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #f39c12;
+}
+
+.redes{
+    width: 30%;
+    margin:20px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    
+    
+}
+
+.fb:hover{
+    transform: scale(2.5);
+    transition: all 0.3s;
+    color: white;
+}
+
+.insta:hover{
+    transform: scale(2.5);
+    transition: all 0.3s;
+    color: pink;
+}
+
+.twit:hover{
+    transform: scale(2.5);
+    transition: all 0.3s;
+    color: black;
+}
+
